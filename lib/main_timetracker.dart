@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:random_ui/modules/home/view/homepage.dart';
+
+import 'modules/time_tracker/view/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,24 +18,27 @@ class MyApp extends StatelessWidget {
           childrenPadding: EdgeInsets.zero,
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Colors.yellow,
+          backgroundColor: Colors.black,
         ),
         textTheme: const TextTheme(
           headline3: TextStyle(
             fontSize: 35,
+            fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
           headline5: TextStyle(
             fontSize: 15,
+            fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
           headline4: TextStyle(
             fontSize: 20,
             color: Colors.black,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),
-      home: const Homepage(),
+      home: const TimeTrackerHomepage(),
     );
   }
 }

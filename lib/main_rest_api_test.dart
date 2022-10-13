@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:random_ui/modules/home/view/homepage.dart';
+
+import 'modules/rest_api_test/view/home_page.dart';
 
 void main() {
   runApp(const MyApp());
