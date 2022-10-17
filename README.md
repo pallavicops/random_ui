@@ -1,6 +1,6 @@
 # random_ui
 
-A new Flutter project for building ui screens
+A new Flutter project for building ui screens for public
 
 ## Getting Started
 
